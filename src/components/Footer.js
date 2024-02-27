@@ -20,11 +20,12 @@ const Footer = () => {
           flexDirection: "column",
           justifyContent: "center",
           alignContent: "center",
+          width:'48%',
+          margin:'0 auto'
         }}
       >
         <h4>C.R.I. FLUID SYSTEMS PRODUCTS CATER TO DIVERSE SEGMENTS</h4>
-        <p style={{ marginLeft:"656px",
-          marginRight:"880px"}}>
+        <p>
           CHEMICALS PROCESS <span>|</span> POWER <span>|</span> WATER & WASTE
           WATER <span>|</span> OILS & GAS <span>|</span> PHARMA <span>|</span>{" "}
           SUGARS & DISTILLERIES <span>|</span> PAPER & PULP <span>|</span>{" "}
@@ -43,10 +44,8 @@ const Footer = () => {
           backgroundColor:"red",
           color:"white",
           padding:"40px",
-          marginLeft:"656px",
-          marginRight:"880px"
-         
-
+          width:'48%',
+          margin:'0 auto'
         }}
       >
         <div style={{display:'flex',justifyContent: "center", alignItems:'center',gap:'2px'}}>

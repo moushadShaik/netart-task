@@ -37,7 +37,8 @@ const MainContent = () => {
           </p>
         </div>
       </div>
-      <p style={{ marginLeft: "700px"}}>
+      <p style={{
+          margin:'0 auto'}}>
         INSTALLED OVER 10 LAKHS STAR RATED PUMPSETS ACROSS THE COUNTRY RESULTING
         IN A CUMULATIVE SAVING OF MORE THAN 9,000 MILLION UNITS OF POWER FOR THE
         NATION.
@@ -47,7 +48,8 @@ const MainContent = () => {
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
-          alignItems: "center"
+          alignItems: "center",
+          marginTop:'16px'
          
         }}
       >
@@ -60,8 +62,8 @@ const MainContent = () => {
       <p
         style={{
           border: "1px solid red",
-          marginInlineStart: "681px",
-          marginInlineEnd: "893px",
+          width:'48%',
+          margin:'0 auto'
         }}
       />
     </div>

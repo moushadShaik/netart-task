@@ -1,3 +1,8 @@
+import Phone from '../asserts/phone.png'
+import Internet from '../asserts/internet.png'
+import Social from '../asserts/social.png'
+
+
 const Footer = () => {
   return (
     <div
@@ -44,16 +49,16 @@ const Footer = () => {
 
         }}
       >
-        <div>
-          <img />
+        <div style={{display:'flex',justifyContent: "center", alignItems:'center',gap:'2px'}}>
+          <img src={Phone} alt='phone' width={40} height={40}/>
           Toll free <b>1800 200 1234</b>
         </div>
-        <div>
-          <img />
+        <div style={{display:'flex',justifyContent: "center", alignItems:'center',gap:'2px'}}>
+          <img src={Social} alt='social' width={50} height={50}/>
           <div>www.facebook.com/cripumps</div>
         </div>
-        <div>
-          <img />
+        <div style={{display:'flex',justifyContent: "center", alignItems:'center',gap:'2px'}}>
+          <img src={Internet} alt='internet' width={40} height={40}/>
           <div>www.crigroups.com</div>
         </div>
       </div>

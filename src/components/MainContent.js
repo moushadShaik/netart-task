@@ -62,8 +62,7 @@ const MainContent = () => {
       <p
         style={{
           border: "1px solid red",
-          width:'48%',
-          margin:'0 auto'
+          margin:'20px 20px'
         }}
       />
     </div>

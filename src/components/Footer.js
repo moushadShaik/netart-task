@@ -20,7 +20,6 @@ const Footer = () => {
           flexDirection: "column",
           justifyContent: "center",
           alignContent: "center",
-          width:'48%',
           margin:'0 auto'
         }}
       >
@@ -44,8 +43,7 @@ const Footer = () => {
           backgroundColor:"red",
           color:"white",
           padding:"40px",
-          width:'48%',
-          margin:'0 auto'
+          margin:'20px 20px'
         }}
       >
         <div style={{display:'flex',justifyContent: "center", alignItems:'center',gap:'2px'}}>
